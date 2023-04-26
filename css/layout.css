@@ -1,0 +1,17 @@
+/* layout.css */
+
+#header{z-index:40; position:relative; width:100%;}
+  .header_wrap{position:absolute; left:0; width:100%; height:120px; background:url(../images/bg_header.png) repeat-x 0 0;}
+    .header_inner{position:relative; margin:0 auto; border:1px solid red;}
+  .srch{position:absolute; left:0; width:100%;}
+.banner{z-index:30; position:relative; overflow:hidden; width:100%;  height:550px; }
+#container{width:100%;}
+  .content1{width:100%; background:#fff;}
+  .content2{position:relative; width:100%; background:url(../images/bg_hotcontent.png) no-repeat 50% 100%; background-size:cover;}
+    .content2_inner{z-index:10; position:relative; height:100%; margin:0 auto; border:1px solid red;}
+    .circle_wrap{z-index:1; position:absolute; left:0; top:0; right:0; bottom:0; overflow:hidden;}
+  .content3{width:100%; background:#fff; padding:70px 0 80px;}
+    .content3_inner{margin:0 auto; border:1px solid red;}
+#footer{position:relative; width:100%;  background:#222; color:#ADADAD;
+      text-align:center; letter-spacing:1px;}
+  .footer_inner{margin:0 auto; padding-top:40px; /*  border:1px solid red; */}
